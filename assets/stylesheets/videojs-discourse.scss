@@ -1,0 +1,13 @@
+@import "https://vjs.zencdn.net/7.20.3/video-js.min.css";
+
+.video-js {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
